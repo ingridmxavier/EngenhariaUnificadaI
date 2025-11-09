@@ -2,7 +2,8 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Vídeo - Esteira Seletora</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Esteira Seletora - Engenharia Unificada I</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -11,37 +12,43 @@
       margin: 40px;
     }
     h1 {
-      color: #800020; /* vinho */
+      color: #1f6feb; /* azul do GitHub */
+      margin-bottom: 10px;
+    }
+    h2 {
+      color: #333;
+      margin-top: 0;
     }
     figure {
       display: inline-block;
-      background: white;
+      background: #fff;
       padding: 15px;
       border-radius: 12px;
       box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+    }
+    video {
+      max-width: 720px;
+      width: 100%;
+      border-radius: 10px;
     }
     figcaption {
       margin-top: 8px;
       font-size: 14px;
       color: #555;
     }
-    video {
-      border-radius: 10px;
-      max-width: 600px;
-      width: 100%;
-    }
   </style>
 </head>
 <body>
 
-  <h1>Simulação da Esteira Seletora</h1>
+  <h1>Engenharia Unificada I</h1>
+  <h2>Protótipo – Esteira Seletora Automatizada</h2>
 
   <figure>
-    <video controls autoplay loop muted>
+    <video controls autoplay loop muted playsinline>
       <source src="Arquivos/esteira-seletora_comprimida.mp4" type="video/mp4">
       Seu navegador não suporta a reprodução de vídeo.
     </video>
-    <figcaption>Figura 1 – Esteira seletora automatizada separando objetos.</figcaption>
+    <figcaption>Figura – Vídeo demonstrando o funcionamento da esteira seletora automatizada.</figcaption>
   </figure>
 
 </body>
